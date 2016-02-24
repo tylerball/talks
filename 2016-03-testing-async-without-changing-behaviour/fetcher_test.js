@@ -2,7 +2,7 @@
 /*eslint-disable no-console */
 'use strict';
 
-window.Fetcher = class Fetcher {
+class Fetcher {
   constructor () {
     this.error = false
     this.result = null
