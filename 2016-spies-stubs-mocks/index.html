@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>Spies, Stubs and Mocks</h2>
+          <p>Testing without side effects</p>
+        </section>
+
+        <section>
+          <p>you may have heard of some of these tools</p>
+          <ul>
+            <li>Spies</li>
+            <li>Stubs</li>
+            <li>Fakes</li>
+            <li>Mocks</li>
+            <li>Doubles</li>
+          </ul>
+        </section>
+
+        <section>
+          <p>test doubles aren't <em>required</em> to write unit tests, but they make your life a lot easier.
+        </section>
+
+        <section>
+          <blockquote cite="https://en.wikipedia.org/wiki/Test_double">
+            In automated unit testing, it may be necessary to use objects or
+            procedures that look and behave like their release-intended
+            counterparts, but are actually simplified versions that reduce the
+            complexity and facilitate testing.
+          </blockquote>
+          <p class="type--right">&mdash; Test Double, <a href="https://en.wikipedia.org/wiki/Test_double">Wikipedia</a></p>
+        </section>
+
+        <section>
+          <p>In order to test some code, it may be beneficial to temporarily modify it in order to ensure it's executed as expected
+        </section>
+
+        <section>
+          <img class="stretch" src="calvin.gif" />
+        </section>
+
+        <section>
+          <p>Resources:</p>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Test_double">Test Double - Wikipedia</a></li>
+            <li><a href="http://igorsobreira.com/2010/12/15/mocks-stubs-fakes-spies.html">Mocks, Stubs, Fakes and Spies</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <script src="js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: false,
+        center: false,
+        history: true
+      });
+    </script>
+  </body>
+</html>
